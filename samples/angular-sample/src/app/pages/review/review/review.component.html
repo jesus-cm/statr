@@ -1,0 +1,21 @@
+<div class="center-content">
+    <mat-card>
+
+
+        <div>
+            <h2>Selected products</h2>
+
+            <mat-list>
+                <mat-list-item *ngFor="let product of selectedProducts">
+                    {{product.name}} x {{product.count}}
+                </mat-list-item>
+            </mat-list>
+        </div>
+
+
+    </mat-card>
+
+</div>
+<div class="center-content">
+    <a routerLink="/">Go back</a>
+</div>

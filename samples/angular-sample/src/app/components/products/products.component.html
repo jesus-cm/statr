@@ -1,0 +1,34 @@
+<h2>Select your products!</h2>
+
+<div class="flex-wrap">
+    <mat-card>
+        <div class="center-content title">T-Shirt</div>
+        <div class="center-content">
+            <img src="/assets/img/t-shirt.jpeg" />
+
+        </div>
+        <div class="center-content">
+            <button mat-stroked-button color="accent" (click)="removeProduct('T-Shirt')"
+                style="margin-left: 10px;">Remove</button>
+            <button mat-raised-button color="primary" (click)="selectProduct('T-Shirt')"
+                style="margin-left: 10px;">Add</button>
+
+
+        </div>
+    </mat-card>
+
+    <mat-card>
+        <div class="center-content title">Jeans</div>
+        <div class="center-content">
+            <img src="/assets/img/jeans.jpeg" />
+
+        </div>
+        <div class="center-content">
+            <button mat-stroked-button color="accent" (click)="removeProduct('Jeans')"
+                style="margin-left: 10px;">Remove</button>
+            <button mat-raised-button color="primary" (click)="selectProduct('Jeans')"
+                style="margin-left: 10px;">Add</button>
+        </div>
+    </mat-card>
+
+</div>

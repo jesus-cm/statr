@@ -1,5 +1,5 @@
 {
-  "name": "statr",
+  "name": "statr3",
   "version": "1.0.0",
   "description": "Simple framework-agnostic state manager",
   "main": "lib/Statr.js",
@@ -31,6 +31,6 @@
     "rxjs": "^6.6.6"
   },
   "files": [
-    "lib /**/*"
+    "lib"
   ]
 }
